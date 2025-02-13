@@ -12,6 +12,9 @@
   - USB Serial
 - 5V/5A, 12V/3A DC/DC搭載
 
+> [!IMPORTANT]
+> 2線式DCファンの速度制御には対応していません。
+
 # Klipper書き込み
 ## UART
 ### 1. Raspberry Piとの接続
