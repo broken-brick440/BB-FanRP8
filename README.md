@@ -33,6 +33,14 @@ Raspberry Piとの接続には付属の7ピンケーブルを用いて接続し�
 | 12 | GPIO18 (接続なし) |
 | 14 | GND |
 
+Raspberry PiのUARTを有効化するため、
+
+[シリアルコンソールの無効化](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console)
+
+[Bluetoothモデムの接続変更](https://www.raspberrypi.com/documentation/computers/configuration.html#uarts-and-device-tree)
+
+を参考に`raspi-config`、`/boot/firmware/config.txt`を変更してください。
+
 ### 2. Katapultのインストール(必要な場合)
 UART経由でKlipperバイナリを書き込むため、[Katapult](https://github.com/Arksine/katapult)をダウンロードします。
 ```
